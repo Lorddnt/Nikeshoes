@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/989af73fd5.js" crossorigin="anonymous"> </script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 650px;
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .container1 {
+            position: relative;
+            background-color: blue;
+            height: 650px;
+            width: 33.33%;
+            justify-content: center;
+        }
+        .container2 {
+            position: relative;
+            background-color: red;
+            height: 650px;
+            width: 33.33%;
+            justify-content: center;
+        }
+        .container3 {
+            position: relative;
+            background-color: green;
+            height: 650px;
+            width: 33.33%;
+            justify-content: center;
+        }
+        .img {
+            height: 280px;
+            width: 280px;
+            position: absolute;
+            top: 100px;
+            left: 120px;
+            right: 0px; 
+        }
+        .gang {
+            position: absolute;
+            height: 100px;
+            width: 100%; 
+            display: none;
+            bottom: 0px;
+            left: 140px;
+            right: 0px;
+        }
+        .gong {
+            position: absolute;
+            height: 100px;
+            width: 100%; 
+            display: none;
+            bottom: 0px;
+            left: 140px;
+            right: 0px;
+        }
+        .geng {
+            position: absolute;
+            height: 100px;
+            width: 100%; 
+            display: none;
+            bottom: 0px;
+            left: 140px;
+            right: 0px;
+        }
+        .image {
+            height: 100px;
+            width: 100px;
+           
+        }
+        .image1 {
+            height: 100px;
+            width: 100px;
+           
+        }
+        .image2 {
+            height: 100px;
+            width: 100px;
+        }
+     
+        .mass {
+            font-size: 400px;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+        .masso {
+            position: absolute;
+            font-size: 80px;
+            text-align: center;
+            color: white;
+            display: none;
+            top: 180px;
+            left: 60px;
+            right: 0px;
+        }
+        ul a {
+            list-style: none;
+        }
+        li {
+            display: inline;
+            padding: 8px;
+            font-size: 23px;
+        }
+        .fa-solid {
+           padding-left: 8px;
+           font-size: 20px;
+        }
+        .navbar {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            display: none;
+        }
+        .navbar1 {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            display: none;
+        }
+        .navbar2 {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            display: none;
+        }
+        .nav {
+            color: white;
+            display: flex;
+            padding: 5px;
+            justify-content: space-around;
+        }
+        .logo {
+            height: 40px;
+            width: 80px;
+        }
+        .list a{
+            text-decoration: none;
+            color: white;
+        }
+        .list a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+        .burger a{
+            text-decoration: none;
+            color: white;
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 600px;
+            }
+            .container1 {
+                width: 200px;
+            }
+            .container2 {
+                width: 200px;
+            }
+            .container3 {
+                width: 200px;
+            }
+            .mass {
+                font-size: 200px;
+            }
+            .img {
+                height: 150px;
+                width: 150px;
+                left: 30px;
+                top: 60px;
+            }
+            .gang {
+                width: 200px;
+                left: 40px;
+            }
+            .gong {
+                width: 200px;
+                left: 40px;
+            }
+            .geng {
+                width: 200px;
+                left: 40px;
+            }
+            .max {
+                height: 50px;
+                width: 50px;
+            }
+            .masso {
+                font-size: 30px;
+            }
+            .image {
+                left: 40px;
+            }
+            .navbar {
+                width: 100%;
+            }
+            li {
+                font-size: 12px;
+            }
+            .logo {
+                height: 20px;
+                width: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1 box">
+            <div class="navbar">
+                <div class="nav">
+                <div class="logo"><img class="logo" src="nike.png" alt=""></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+            </div>
+            <h1 class="mass">D</h1>
+            <h2 class="masso">DOWNSHIFTER 10</h2>
+            <img class="img" src="imani.png" alt="">
+            <div class="gang">
+            <img class="image max" src="usama.png" alt="">
+            <img class="image1 max" src="imani.png" alt="">
+            <img class="image2 max" src="alexander.png" alt="">
+        </div>
+        </div>
+        <div class="container2 box">
+            <div class="navbar1">
+                <div class="nav">
+                <div class="logo"><img class="logo" src="nike.png" alt=""></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+            </div>
+            <h2 class="masso masso1">ULTRASOFT 4.0</h2>
+            <h1 class="mass mass1">U</h1>
+            <img class="img img1" src="shoe.png" alt="">
+            <div class="gong">
+            <img class="image max" src="cool.png" alt="">
+            <img class="image1 max" src="revolt.png" alt="">
+            <img class="image2 max" src="usama.png" alt="">
+        </div>
+        </div>
+        <div class="container3 box">
+            <div class="navbar2">
+                <div class="nav">
+                <div class="logo"><img class="logo" src="nike.png" alt=""></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+            </div>
+            <h2 class="masso masso2">CENTERIC</h2>
+            <h1 class="mass mass2">C</h1>
+            <img class="img img2" src="wired.png" alt="">
+            <div class="geng">
+            <img class="image max" src="cool.png" alt="">
+            <img class="image1 max" src="wired.png" alt="">
+            <img class="image2 max" src="alexander.png" alt="">
+        </div>
+        </div>
+    </div>
+
+    <script>
+        let Nava = document.querySelector('.navbar');
+        let Nava1 = document.querySelector('.navbar1');
+        let Nava2 = document.querySelector('.navbar2');
+        let Image = document.querySelector('.gang');
+        let Image1 = document.querySelector('.gong');
+        let Image2 = document.querySelector('.geng');
+        let picture = document.querySelector('.img');
+        let picture1 = document.querySelector('.img1');
+        let picture2 = document.querySelector('.img2');
+        let Name = document.querySelector('.masso');
+        let Name1 = document.querySelector('.masso1');
+        let Name2 = document.querySelector('.masso2');
+        let Nama = document.querySelector('.mass');
+        let Nama1 = document.querySelector('.mass1');
+        let Nama2 = document.querySelector('.mass2');
+        let fan1 = document.querySelector('.container1');
+        let fan2 = document.querySelector('.container2');
+        let fan3 = document.querySelector('.container3');
+        
+
+        fan1.onclick = function() {
+            let fan1 = document.querySelector('.container1');
+            let fan2 = document.querySelector('.container2');
+            let fan3 = document.querySelector('.container3');
+            fan1.style.width = '60%'
+            fan2.style.width = '20%'
+            fan3.style.width = '20%'
+            Name.style.display = 'block'
+            Name1.style.display = 'none'
+            Name2.style.display = 'none'
+            Nama.style.display = 'none'
+            Nama1.style.display = 'block'
+            Nama2.style.display = 'block'
+            picture.style.width = '380px'
+            picture1.style.width = '280px'
+            picture.style.top = '40px'
+            picture.style.left = '150px'
+            picture1.style.left = '30px'
+            picture2.style.left = '30px'
+            picture2.style.width = '280px'
+            picture.style.height = '380px'
+            picture1.style.height = '280px'
+            picture2.style.height = '280px'
+            Image.style.display = 'block'
+            Image1.style.display = 'none'
+            Image2.style.display = 'none'
+            Image.style.left = '450px'
+            Nava.style.display = 'block'
+            Nava1.style.display = 'none'
+            Nava2.style.display = 'none'
+            Nava.style.width = '100%'
+            
+
+        };
+        fan2.onclick = function() {
+            let fan1 = document.querySelector('.container1');
+            let fan2 = document.querySelector('.container2');
+            let fan3 = document.querySelector('.container3');
+            fan1.style.width = '20%'
+            fan2.style.width = '60%'
+            fan3.style.width = '20%'
+            Name1.style.display = 'block'
+            Name.style.display = 'none'
+            Name2.style.display = 'none'
+            Nama1.style.display = 'none'
+            Nama2.style.display = 'block'
+            Nama.style.display = 'block'
+            picture.style.top = '60px'
+            picture.style.left = '40px'
+            picture1.style.left = '150px'
+            picture2.style.left = '30px'
+            picture1.style.width = '380px'
+            picture.style.width = '280px'
+            picture2.style.width = '280px'
+            picture1.style.height = '380px'
+            picture.style.height = '280px'
+            picture2.style.height = '280px'
+            Image.style.display = 'none'
+            Image1.style.display = 'block'
+            Image2.style.display = 'none'
+            Image1.style.left = '450px'
+            Nava.style.display = 'none'
+            Nava1.style.display = 'block'
+            Nava2.style.display = 'none'
+            Nava.style.width = '100%'
+
+        }
+        fan3.onclick = function() {
+            let fan1 = document.querySelector('.container1');
+            let fan2 = document.querySelector('.container2');
+            let fan3 = document.querySelector('.container3');
+            fan1.style.width = '20%'
+            fan2.style.width = '20%'
+            fan3.style.width = '60%'
+            Name.style.display = 'none'
+            Name1.style.display = 'none'
+            Name2.style.display = 'block'
+            Nama.style.display = 'block'
+            Nama1.style.display = 'block'
+            Nama2.style.display = 'none'
+            picture.style.top = '60px'
+            picture.style.left = '40px'
+            picture1.style.left = '40px'
+            picture2.style.left = '200px'
+            picture.style.width = '280px'
+            picture1.style.width = '280px'
+            picture2.style.width = '380px'
+            picture.style.height = '280px'
+            picture1.style.height = '280px'
+            picture2.style.height = '380px'
+            Image.style.display = 'none'
+            Image1.style.display = 'none'
+            Image2.style.display = 'block'
+            Image2.style.left = '450px'
+            Nava.style.display = 'none'
+            Nava1.style.display = 'none'
+            Nava2.style.display = 'block'
+            Nava.style.width = '100%'
+
+        };
+    </script>
+</body>
+</html>
